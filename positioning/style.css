@@ -1,0 +1,119 @@
+body {
+	top: 0;
+	left: 0;
+	height: 2000px;
+	font-family: 'PT Sans', sans-serif;
+}
+
+.container {
+	background-color: aqua;
+	position: absolute;
+	width: 564px;
+	height: auto;
+	top: 200px;
+	left: 50%;
+	margin-left: -282px;
+}
+
+.container-1 p {
+	font-size: 0.75em;
+}
+
+.links {
+	position: fixed;
+	width: 79px;
+	height: 61px;
+	bottom: 210px;
+	/*top: 917px;*/
+	right: 0;
+	padding: 5px;
+	background-color: #fbaf5d;
+	border: 1px solid #000;
+	border-right: none;
+	text-align: center;
+}
+.links img {
+	margin-top: 10px;
+}
+
+.container-1, .container-2, .container-3 {
+	position: absolute;
+	width: 459px;
+	height: 701px;
+	border: 2px solid #000000;
+	padding: 15px 30px 30px 30px;
+}
+.container-1  {
+	/*z-index: 3;*/
+	background-color: #ebebeb;
+}
+.container-2 {
+	/*z-index: 2;*/
+	top: 20px;
+	left: 20px;
+	background-color: #cccccc;
+}
+.container-3 {
+	/*z-index: 1;*/
+	top: 40px;
+	left: 40px;
+	background-color: #acacac;
+}
+
+.book-mark {
+	position: absolute;
+	top: 39px;
+	width: 107px;
+	height: 32px;
+	border: 2px solid #000000;
+	border-radius: 0 10px 10px 0;
+}
+
+.container-1 .book-mark {
+	right: -83px;
+}
+.container-2 .book-mark {
+	right: -50px;
+}
+.container-3 .book-mark {
+	right: -17px;
+}
+
+.container-1 .book-mark {
+	background-color: #f68e56;
+}
+.container-2 .book-mark {
+	background-color: #39b54a;
+}
+.container-3 .book-mark {
+	background-color: #00aeef;
+}
+.container-1 footer{
+	padding: 0 10px 0 10px;
+	font-size: 0.8em;
+	text-align: center;
+}
+.container-1 article:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+
+.img-margin-right {
+	margin-right: 15px;
+}
+.img-margin-left {
+	margin-left: 15px;
+}
+.img-margin-bottom{
+	margin-bottom: 15px;
+}
+
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+
